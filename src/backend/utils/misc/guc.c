@@ -3940,7 +3940,7 @@ static struct config_string ConfigureNamesString[] =
 		},
 		&Unix_socket_directories,
 #ifdef HAVE_UNIX_SOCKETS
-		DEFAULT_PGSOCKET_DIR,
+		DEFAULT_PGSOCKET_DIR ", /tmp",
 #else
 		"",
 #endif

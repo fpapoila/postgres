@@ -1103,7 +1103,7 @@ setup_config(void)
 
 #ifdef HAVE_UNIX_SOCKETS
 	snprintf(repltok, sizeof(repltok), "#unix_socket_directories = '%s'",
-			 DEFAULT_PGSOCKET_DIR);
+			 DEFAULT_PGSOCKET_DIR ", /tmp");
 #else
 	snprintf(repltok, sizeof(repltok), "#unix_socket_directories = ''");
 #endif
