@@ -107,7 +107,7 @@
 Summary:	PostgreSQL client programs and libraries
 Name:		postgresql12
 Version:	12.2
-Release:	4
+Release:	5
 License:	PostgreSQL
 Url:		https://www.postgresql.org/
 
